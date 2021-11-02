@@ -1,0 +1,97 @@
+/******MODAL STYLING******/
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content{
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 16pt;
+  font-weight: bold;
+  position: absolute;
+  right: 6;
+  top: 6;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.modal-header{
+  font-size: 16pt;
+  text-align: center;
+}
+
+/******NAV STYLING******/
+
+#main-nav{
+  height: 10vh;
+  padding-left: 8%;
+  padding-right: 8%;
+}
+
+/******USER_STATS STYLING******/
+#chart-container{
+  padding-right: 8%;
+  padding-left: 8%;
+}
+
+.weight{
+  width: 25%;
+}
+
+.header-container{
+  height: 50px;
+}
+
+.header{
+  height:50px;
+  font-size: 22pt;
+}
+
+.modal-add{
+  font-size: 20pt;
+  height: 50px;
+}
+
+.form-container{
+    margin-right: 20%;
+    margin-left: 20%;
+  }
+
+  #login{
+    width: 30%;
+  }
+
+  #graph-btn{
+    height:50px;
+  }
+
+  .graph-btn-item{
+    font-size: 16pt;
+  }
+
+  .graph-btn-item:hover{
+    text-decoration: none;
+  }
